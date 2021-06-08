@@ -1,0 +1,8 @@
+{
+  "name": "timeline",
+  "author": "arshaw",
+  "description": "A backport of a fix to fullcalendar as we couldn't easily upgrade - see fullcalendar scheduler for license",
+  "repository": "https://github.com/reallycare/timeline",
+  "version": "0.0.1",
+  "main": "main.js",
+}
