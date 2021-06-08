@@ -4,7 +4,7 @@ Docs & License: https://fullcalendar.io/scheduler
 (c) 2019 Adam Shaw
 */
 
-(function (global, factory) {
+;(function (global, factory) {
     typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports, require('@fullcalendar/core')) :
     typeof define === 'function' && define.amd ? define(['exports', '@fullcalendar/core'], factory) :
     (global = global || self, factory(global.FullCalendarTimeline = {}, global.FullCalendar));
