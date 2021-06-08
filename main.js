@@ -1446,6 +1446,7 @@ Docs & License: https://fullcalendar.io/scheduler
             if (nonLastSlotWidth !== '') {
                 this.header.slatColEls.slice(0, -1).concat(this.slats.slatColEls.slice(0, -1)).forEach(function (el) {
                     el.style.width = nonLastSlotWidth + 'px';
+                    el.style.minWidth = '0' // prevent the browser from using the actual min-width (issue #6338)                    
                 });
             }
         };
